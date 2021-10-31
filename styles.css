@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;700&family=Lexend+Deca&display=swap');
+body {
+    background: hsl(233, 47%, 7%);
+}
+/* container-styles */
+.container {
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    font-family: 'Inter', sans-serif;
+    margin-left: 8em;
+    margin-right: 10em;
+    margin-top: 6em;
+    border-radius: 0.375em;
+    height: 27.875rem;
+}
+.container .main-heading {
+    font-family: 'Inter', san-serif;
+    font-size: 2em;
+    color: #FFF;
+    font-weight: 700;
+}
+.container .sub-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.825rem;
+    color: #FFF;
+    font-weight: 100;
+    line-height: 1.7em;
+}
+.container .accent {
+    color: hsl(277, 64%, 61%);
+}
+.container .left .tx1 {
+    position: absolute;
+    top: 22.2em;
+    font-size: larger;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 1.1em;
+}
+.container .left .tx2 {
+    position: absolute;
+    left: 17.3em;
+    top: 22.2em;
+    font-size: larger;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 1.1em;
+}
+.container .left .tx3 {
+    position: absolute;
+    left: 23.5em;
+    top: 22.2em;
+    font-size: larger;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 1.1em;
+}
+.text2 {
+    letter-spacing: 0.15em;
+    font-size: 0.5em;
+    font-weight: 100;
+}
+.column {
+    justify-content: center;
+}
+.left {
+    padding-top: 3em;
+    padding-left: 2em;
+    min-width: 25.25rem;
+    margin-left: 2.5em;
+    margin-right: 4em;
+    text-align: justify;
+}
+.right {
+    background: hsl(277, 64%, 61%);
+    position: relative;
+    box-sizing: border-box;
+    object-fit: cover;
+    border-radius: 0.375em;
+}
+.right img {
+    -webkit-filter: contrast(200%);
+    filter: contrast(200%);
+    opacity: 0.5;
+}
+img {
+    border-radius: 0 0.375em 0.375em 0;
+}
+.attribution {
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+}
